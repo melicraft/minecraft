@@ -1,5 +1,5 @@
 #!/bin/sh
-NOW=$(date +"%d-%m-%Y")
+NOW=$(date +"%d/%m/%Y %T")
 printf "Start Backup Job $NOW"
 sudo chown -R roque: /srv/minecraft
 git add .
