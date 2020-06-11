@@ -1,10 +1,10 @@
 #!/bin/sh
-printf "Start Backup Job"
+NOW=$(date +"%d-%m-%Y")
+printf "Start Backup Job $NOW"
 sudo chown -R roque: /srv/minecraft
 git add .
-NOW=$(date +"%d-%m-%Y")
 git commit -m 'Auto Backup Server $NOW' 
 git push 
-chown -R minecraft.minecraft /srv/minecraft
-setfacl -R -m u:minecraft:rwx /srv/minecraft
+chown -S -R minecraft.minecraft /srv/minecraft
+setfacl -S -R -m u:minecraft:rwx /srv/minecraft
 printf "Backup Finished"
