@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 NOW=$(date +"%d/%m/%Y %T")
 printf "Start Backup Job $NOW"
 git add .
