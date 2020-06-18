@@ -586,6 +586,7 @@
       "minecraft:pillager": "2020-05-31 12:04:22 -0300",
       "minecraft:skeleton": "2020-05-26 20:58:09 -0300",
       "minecraft:ravager": "2020-05-31 15:48:37 -0300",
+      "minecraft:ghast": "2020-06-18 15:43:26 -0300",
       "minecraft:vindicator": "2020-05-31 15:05:42 -0300",
       "minecraft:spider": "2020-05-25 18:06:32 -0300",
       "minecraft:creeper": "2020-05-26 20:57:57 -0300",
@@ -1850,6 +1851,12 @@
     },
     "done": true
   },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2020-06-18 15:46:21 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/acacia_slab": {
     "criteria": {
       "has_planks": "2020-05-26 21:27:05 -0300"
@@ -2064,6 +2071,12 @@
   "minecraft:recipes/decorations/cyan_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2020-05-26 18:28:00 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_red_mushroom": "2020-06-18 15:40:44 -0300"
     },
     "done": true
   },
@@ -2574,6 +2587,12 @@
   "minecraft:recipes/building_blocks/cut_sandstone": {
     "criteria": {
       "has_sandstone": "2020-05-26 13:28:25 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/skull_banner_pattern": {
+    "criteria": {
+      "has_wither_skeleton_skull": "2020-06-18 15:46:21 -0300"
     },
     "done": true
   },
