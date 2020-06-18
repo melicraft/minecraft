@@ -137,6 +137,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/magma_block": {
+    "criteria": {
+      "has_magma_cream": "2020-06-18 15:58:31 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/ladder": {
     "criteria": {
       "has_stick": "2020-05-25 17:59:50 -0300"
@@ -588,6 +594,7 @@
       "minecraft:ravager": "2020-05-31 15:48:37 -0300",
       "minecraft:ghast": "2020-06-18 15:43:26 -0300",
       "minecraft:vindicator": "2020-05-31 15:05:42 -0300",
+      "minecraft:magma_cube": "2020-06-18 15:58:24 -0300",
       "minecraft:spider": "2020-05-25 18:06:32 -0300",
       "minecraft:creeper": "2020-05-26 20:57:57 -0300",
       "minecraft:evoker": "2020-05-31 15:46:31 -0300",
