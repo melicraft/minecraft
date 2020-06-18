@@ -15920,3 +15920,149 @@ java.io.FileNotFoundException: ./world_the_end/DIM1/data/raids_end.dat (Permissi
 [12:29:20] [Async Chat Thread - #125/INFO]: <TIO_ROB> FishingBot v2.6 - Caught "enchanted_book"
 [12:29:20] [Async Chat Thread - #125/INFO]: <TIO_ROB> -> KNOCKBACK II
 [12:29:20] [Async Chat Thread - #125/INFO]: <TIO_ROB> -> PIERCING IV
+[12:30:45] [Async Chat Thread - #126/INFO]: <TIO_ROB> FishingBot v2.6 - Caught "enchanted_book"
+[12:30:45] [Async Chat Thread - #126/INFO]: <TIO_ROB> -> MENDING I
+[12:30:45] [Async Chat Thread - #126/INFO]: <TIO_ROB> -> LUCK_OF_THE_SEA II
+[12:31:23] [Server thread/ERROR]: Could not save data net.minecraft.server.v1_15_R1.PersistentRaid@60d9add9
+java.io.FileNotFoundException: ./world/data/raids.dat (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[?:1.8.0_252]
+	at net.minecraft.server.v1_15_R1.PersistentBase.a(SourceFile:51) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldPersistentData.a(SourceFile:121) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.m_(WorldServer.java:827) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.save(WorldServer.java:806) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.saveChunks(MinecraftServer.java:655) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:1004) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [server.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+[12:31:24] [Server thread/ERROR]: Could not save data net.minecraft.server.v1_15_R1.PersistentRaid@42f348c6
+java.io.FileNotFoundException: ./world_nether/DIM-1/data/raids_nether.dat (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[?:1.8.0_252]
+	at net.minecraft.server.v1_15_R1.PersistentBase.a(SourceFile:51) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldPersistentData.a(SourceFile:121) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.m_(WorldServer.java:827) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.save(WorldServer.java:806) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.saveChunks(MinecraftServer.java:655) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:1004) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [server.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+[12:31:24] [Server thread/ERROR]: Could not save data net.minecraft.server.v1_15_R1.PersistentRaid@225feb6c
+java.io.FileNotFoundException: ./world_the_end/DIM1/data/raids_end.dat (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[?:1.8.0_252]
+	at net.minecraft.server.v1_15_R1.PersistentBase.a(SourceFile:51) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldPersistentData.a(SourceFile:121) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.m_(WorldServer.java:827) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.save(WorldServer.java:806) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.saveChunks(MinecraftServer.java:655) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:1004) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [server.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+[12:31:35] [Async Chat Thread - #126/INFO]: <TIO_ROB> FishingBot v2.6 - Caught "bow"
+[12:31:35] [Async Chat Thread - #126/INFO]: <TIO_ROB> -> POWER IV
+[12:34:24] [Async Chat Thread - #127/INFO]: <TIO_ROB> FishingBot v2.6 - Caught "fishing_rod"
+[12:34:24] [Async Chat Thread - #127/INFO]: <TIO_ROB> -> LUCK_OF_THE_SEA II
+[12:35:47] [Async Chat Thread - #128/INFO]: <TIO_ROB> FishingBot v2.6 - Caught "fishing_rod"
+[12:35:47] [Async Chat Thread - #128/INFO]: <TIO_ROB> -> LURE II
+[12:35:48] [Async Chat Thread - #128/INFO]: <TIO_ROB> -> LUCK_OF_THE_SEA II
+[12:36:25] [Server thread/ERROR]: Could not save data net.minecraft.server.v1_15_R1.PersistentRaid@60d9add9
+java.io.FileNotFoundException: ./world/data/raids.dat (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[?:1.8.0_252]
+	at net.minecraft.server.v1_15_R1.PersistentBase.a(SourceFile:51) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldPersistentData.a(SourceFile:121) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.m_(WorldServer.java:827) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.save(WorldServer.java:806) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.saveChunks(MinecraftServer.java:655) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:1004) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [server.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+[12:36:25] [Server thread/ERROR]: Could not save data net.minecraft.server.v1_15_R1.PersistentRaid@42f348c6
+java.io.FileNotFoundException: ./world_nether/DIM-1/data/raids_nether.dat (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[?:1.8.0_252]
+	at net.minecraft.server.v1_15_R1.PersistentBase.a(SourceFile:51) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldPersistentData.a(SourceFile:121) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.m_(WorldServer.java:827) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.save(WorldServer.java:806) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.saveChunks(MinecraftServer.java:655) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:1004) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [server.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+[12:36:25] [Server thread/ERROR]: Could not save data net.minecraft.server.v1_15_R1.PersistentRaid@225feb6c
+java.io.FileNotFoundException: ./world_the_end/DIM1/data/raids_end.dat (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[?:1.8.0_252]
+	at net.minecraft.server.v1_15_R1.PersistentBase.a(SourceFile:51) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldPersistentData.a(SourceFile:121) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.m_(WorldServer.java:827) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.save(WorldServer.java:806) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.saveChunks(MinecraftServer.java:655) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:1004) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [server.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+[12:36:58] [Async Chat Thread - #129/INFO]: <TIO_ROB> I've got a new level: 62
+[12:36:58] [Async Chat Thread - #129/INFO]: <TIO_ROB> FishingBot v2.6 - Caught "bow"
+[12:36:58] [Async Chat Thread - #129/INFO]: <TIO_ROB> -> POWER III
+[12:36:59] [Async Chat Thread - #129/INFO]: <TIO_ROB> -> UNBREAKING III
+[12:37:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5020ms or 100 ticks behind
+[12:38:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5010ms or 100 ticks behind
+[12:40:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5002ms or 100 ticks behind
+[12:41:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5014ms or 100 ticks behind
+[12:41:46] [Server thread/ERROR]: Could not save data net.minecraft.server.v1_15_R1.PersistentRaid@60d9add9
+java.io.FileNotFoundException: ./world/data/raids.dat (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[?:1.8.0_252]
+	at net.minecraft.server.v1_15_R1.PersistentBase.a(SourceFile:51) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldPersistentData.a(SourceFile:121) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.m_(WorldServer.java:827) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.save(WorldServer.java:806) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.saveChunks(MinecraftServer.java:655) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:1004) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [server.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+[12:41:46] [Server thread/ERROR]: Could not save data net.minecraft.server.v1_15_R1.PersistentRaid@42f348c6
+java.io.FileNotFoundException: ./world_nether/DIM-1/data/raids_nether.dat (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[?:1.8.0_252]
+	at net.minecraft.server.v1_15_R1.PersistentBase.a(SourceFile:51) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldPersistentData.a(SourceFile:121) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.m_(WorldServer.java:827) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.save(WorldServer.java:806) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.saveChunks(MinecraftServer.java:655) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:1004) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [server.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+[12:41:46] [Server thread/ERROR]: Could not save data net.minecraft.server.v1_15_R1.PersistentRaid@225feb6c
+java.io.FileNotFoundException: ./world_the_end/DIM1/data/raids_end.dat (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[?:1.8.0_252]
+	at net.minecraft.server.v1_15_R1.PersistentBase.a(SourceFile:51) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldPersistentData.a(SourceFile:121) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.m_(WorldServer.java:827) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.save(WorldServer.java:806) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.saveChunks(MinecraftServer.java:655) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:1004) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [server.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+[12:42:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5008ms or 100 ticks behind
+[12:43:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5016ms or 100 ticks behind
