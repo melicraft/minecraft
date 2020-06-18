@@ -515,6 +515,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/quartz_stairs": {
+    "criteria": {
+      "has_quartz_block": "2020-06-18 18:36:00 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_andesite_slab_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2020-05-25 18:24:26 -0300"
@@ -610,6 +616,12 @@
     },
     "done": false
   },
+  "minecraft:recipes/building_blocks/chiseled_quartz_block_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2020-06-18 18:36:00 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/birch_wood": {
     "criteria": {
       "has_log": "2020-06-05 22:51:24 -0300"
@@ -688,9 +700,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/quartz_pillar_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2020-06-18 18:36:00 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/granite_wall_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2020-05-25 18:31:20 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_quartz": {
+    "criteria": {
+      "has_quartz_block": "2020-06-18 18:36:00 -0300"
     },
     "done": true
   },
@@ -838,6 +862,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/quartz_slab": {
+    "criteria": {
+      "has_quartz_block": "2020-06-18 18:36:00 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/red_dye_from_poppy": {
     "criteria": {
       "has_red_flower": "2020-05-31 14:46:14 -0300"
@@ -946,6 +976,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/quartz_slab_from_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2020-06-18 18:36:00 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/tripwire_hook": {
     "criteria": {
       "has_string": "2020-05-25 18:06:33 -0300"
@@ -961,6 +997,12 @@
   "minecraft:recipes/misc/bone_meal": {
     "criteria": {
       "has_bone": "2020-05-25 18:06:10 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_quartz_block": {
+    "criteria": {
+      "has_quartz_block": "2020-06-18 18:36:00 -0300"
     },
     "done": true
   },
@@ -1411,6 +1453,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/quartz_pillar": {
+    "criteria": {
+      "has_quartz_block": "2020-06-18 18:36:00 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/rabbit_stew_from_brown_mushroom": {
     "criteria": {
       "has_cooked_rabbit": "2020-06-03 01:16:05 -0300"
@@ -1654,6 +1702,12 @@
   "minecraft:nether/summon_wither": {
     "criteria": {
       "summoned": "2020-06-06 02:55:48 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_stairs_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2020-06-18 18:36:00 -0300"
     },
     "done": true
   },
