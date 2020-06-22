@@ -12909,3 +12909,579 @@ java.io.FileNotFoundException: ./world_the_end/DIM1/data/raids_end.dat (Permissi
 	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:1004) [server.jar:git-Spigot-800b93f-8160e29]
 	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [server.jar:git-Spigot-800b93f-8160e29]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+[16:31:44] [Server thread/ERROR]: Could not save data net.minecraft.server.v1_15_R1.PersistentRaid@60d9add9
+java.io.FileNotFoundException: ./world/data/raids.dat (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[?:1.8.0_252]
+	at net.minecraft.server.v1_15_R1.PersistentBase.a(SourceFile:51) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldPersistentData.a(SourceFile:121) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.m_(WorldServer.java:827) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.save(WorldServer.java:806) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.saveChunks(MinecraftServer.java:655) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:1004) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [server.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+[16:31:44] [Server thread/ERROR]: Could not save data net.minecraft.server.v1_15_R1.PersistentRaid@42f348c6
+java.io.FileNotFoundException: ./world_nether/DIM-1/data/raids_nether.dat (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[?:1.8.0_252]
+	at net.minecraft.server.v1_15_R1.PersistentBase.a(SourceFile:51) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldPersistentData.a(SourceFile:121) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.m_(WorldServer.java:827) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.save(WorldServer.java:806) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.saveChunks(MinecraftServer.java:655) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:1004) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [server.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+[16:31:44] [Server thread/ERROR]: Could not save data net.minecraft.server.v1_15_R1.PersistentRaid@225feb6c
+java.io.FileNotFoundException: ./world_the_end/DIM1/data/raids_end.dat (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[?:1.8.0_252]
+	at net.minecraft.server.v1_15_R1.PersistentBase.a(SourceFile:51) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldPersistentData.a(SourceFile:121) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.m_(WorldServer.java:827) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.save(WorldServer.java:806) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.saveChunks(MinecraftServer.java:655) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:1004) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [server.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+[16:34:35] [User Authenticator #42/INFO]: UUID of player seupedro is c5e08c9e-6ee4-37c9-bdc8-f320cbb191dd
+[16:34:35] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to SuperLogin v1.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:320) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:529) [server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:514) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.PlayerList.a(PlayerList.java:176) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.LoginListener.c(LoginListener.java:154) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.LoginListener.tick(LoginListener.java:53) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.NetworkManager.a(NetworkManager.java:220) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.ServerConnection.c(ServerConnection.java:129) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.b(MinecraftServer.java:1105) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.DedicatedServer.b(DedicatedServer.java:399) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:984) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [server.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+Caused by: java.lang.NoSuchFieldError: SUCCESSFUL_HIT
+	at Crd.Code.Handler.SucessfullLogin(Handler.java:50) ~[?:?]
+	at Crd.Code.Listeners.onJoin(Listeners.java:46) ~[?:?]
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_252]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_252]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[server.jar:git-Spigot-800b93f-8160e29]
+	... 13 more
+[16:34:35] [Server thread/INFO]: seupedro[/189.125.49.228:60476] logged in with entity id 488331 at ([world]-85.6137245146808, 96.0, -2959.547947647119)
+[16:35:32] [Server thread/ERROR]: Could not pass event EntityDamageByEntityEvent to SuperLogin v1.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:320) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:529) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:514) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.craftbukkit.v1_15_R1.event.CraftEventFactory.callEvent(CraftEventFactory.java:230) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.craftbukkit.v1_15_R1.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:923) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.craftbukkit.v1_15_R1.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:810) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.craftbukkit.v1_15_R1.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:766) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.craftbukkit.v1_15_R1.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:955) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.EntityLiving.damageEntity0(EntityLiving.java:1624) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.EntityLiving.damageEntity(EntityLiving.java:1028) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.EntityInsentient.B(EntityInsentient.java:1294) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.EntityFox$l.a(EntityFox.java:1255) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.PathfinderGoalMeleeAttack.e(SourceFile:131) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.PathfinderGoalWrapped.e(SourceFile:55) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) ~[?:1.8.0_252]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175) ~[?:1.8.0_252]
+	at java.util.Iterator.forEachRemaining(Iterator.java:116) ~[?:1.8.0_252]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801) ~[?:1.8.0_252]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482) ~[?:1.8.0_252]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472) ~[?:1.8.0_252]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) ~[?:1.8.0_252]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) ~[?:1.8.0_252]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:1.8.0_252]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:485) ~[?:1.8.0_252]
+	at net.minecraft.server.v1_15_R1.PathfinderGoalSelector.doTick(SourceFile:80) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.EntityInsentient.doTick(EntityInsentient.java:655) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.EntityLiving.movementTick(EntityLiving.java:2521) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.EntityInsentient.movementTick(EntityInsentient.java:504) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.EntityAgeable.movementTick(EntityAgeable.java:170) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.EntityAnimal.movementTick(EntityAnimal.java:28) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.EntityFox.movementTick(EntityFox.java:144) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.EntityLiving.tick(EntityLiving.java:2353) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.EntityInsentient.tick(EntityInsentient.java:273) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.EntityFox.tick(EntityFox.java:419) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.entityJoinedWorld(WorldServer.java:626) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.World.a(World.java:718) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.doTick(WorldServer.java:395) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.b(MinecraftServer.java:1082) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.DedicatedServer.b(DedicatedServer.java:399) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:984) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [server.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+Caused by: java.lang.ClassCastException: org.bukkit.craftbukkit.v1_15_R1.entity.CraftChicken cannot be cast to org.bukkit.entity.Player
+	at Crd.Code.Listeners.onDamage(Listeners.java:102) ~[?:?]
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_252]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_252]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[server.jar:git-Spigot-800b93f-8160e29]
+	... 42 more
+[16:35:32] [Server thread/ERROR]: Could not pass event EntityDamageByEntityEvent to SuperLogin v1.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:320) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:529) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:514) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.craftbukkit.v1_15_R1.event.CraftEventFactory.callEvent(CraftEventFactory.java:230) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.craftbukkit.v1_15_R1.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:923) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.craftbukkit.v1_15_R1.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:810) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.craftbukkit.v1_15_R1.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:766) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.craftbukkit.v1_15_R1.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:955) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.EntityLiving.damageEntity0(EntityLiving.java:1624) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.EntityLiving.damageEntity(EntityLiving.java:1028) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.EntityInsentient.B(EntityInsentient.java:1294) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.EntityFox$l.a(EntityFox.java:1255) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.PathfinderGoalMeleeAttack.e(SourceFile:131) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.PathfinderGoalWrapped.e(SourceFile:55) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) ~[?:1.8.0_252]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175) ~[?:1.8.0_252]
+	at java.util.Iterator.forEachRemaining(Iterator.java:116) ~[?:1.8.0_252]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801) ~[?:1.8.0_252]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482) ~[?:1.8.0_252]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472) ~[?:1.8.0_252]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) ~[?:1.8.0_252]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) ~[?:1.8.0_252]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:1.8.0_252]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:485) ~[?:1.8.0_252]
+	at net.minecraft.server.v1_15_R1.PathfinderGoalSelector.doTick(SourceFile:80) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.EntityInsentient.doTick(EntityInsentient.java:655) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.EntityLiving.movementTick(EntityLiving.java:2521) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.EntityInsentient.movementTick(EntityInsentient.java:504) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.EntityAgeable.movementTick(EntityAgeable.java:170) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.EntityAnimal.movementTick(EntityAnimal.java:28) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.EntityFox.movementTick(EntityFox.java:144) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.EntityLiving.tick(EntityLiving.java:2353) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.EntityInsentient.tick(EntityInsentient.java:273) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.EntityFox.tick(EntityFox.java:419) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.entityJoinedWorld(WorldServer.java:626) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.World.a(World.java:718) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.doTick(WorldServer.java:395) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.b(MinecraftServer.java:1082) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.DedicatedServer.b(DedicatedServer.java:399) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:984) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [server.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+Caused by: java.lang.ClassCastException: org.bukkit.craftbukkit.v1_15_R1.entity.CraftChicken cannot be cast to org.bukkit.entity.Player
+	at Crd.Code.Listeners.onDamage(Listeners.java:102) ~[?:?]
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_252]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_252]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[server.jar:git-Spigot-800b93f-8160e29]
+	... 42 more
+[16:35:34] [Server thread/ERROR]: Could not pass event EntityDamageByEntityEvent to SuperLogin v1.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:320) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:529) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:514) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.craftbukkit.v1_15_R1.event.CraftEventFactory.callEvent(CraftEventFactory.java:230) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.craftbukkit.v1_15_R1.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:923) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.craftbukkit.v1_15_R1.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:810) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.craftbukkit.v1_15_R1.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:766) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.craftbukkit.v1_15_R1.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:955) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.EntityLiving.damageEntity0(EntityLiving.java:1624) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.EntityLiving.damageEntity(EntityLiving.java:1028) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.EntityInsentient.B(EntityInsentient.java:1294) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.EntityFox$l.a(EntityFox.java:1255) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.PathfinderGoalMeleeAttack.e(SourceFile:131) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.PathfinderGoalWrapped.e(SourceFile:55) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) ~[?:1.8.0_252]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175) ~[?:1.8.0_252]
+	at java.util.Iterator.forEachRemaining(Iterator.java:116) ~[?:1.8.0_252]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801) ~[?:1.8.0_252]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482) ~[?:1.8.0_252]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472) ~[?:1.8.0_252]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) ~[?:1.8.0_252]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) ~[?:1.8.0_252]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:1.8.0_252]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:485) ~[?:1.8.0_252]
+	at net.minecraft.server.v1_15_R1.PathfinderGoalSelector.doTick(SourceFile:80) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.EntityInsentient.doTick(EntityInsentient.java:655) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.EntityLiving.movementTick(EntityLiving.java:2521) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.EntityInsentient.movementTick(EntityInsentient.java:504) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.EntityAgeable.movementTick(EntityAgeable.java:170) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.EntityAnimal.movementTick(EntityAnimal.java:28) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.EntityFox.movementTick(EntityFox.java:144) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.EntityLiving.tick(EntityLiving.java:2353) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.EntityInsentient.tick(EntityInsentient.java:273) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.EntityFox.tick(EntityFox.java:419) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.entityJoinedWorld(WorldServer.java:626) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.World.a(World.java:718) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.doTick(WorldServer.java:395) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.b(MinecraftServer.java:1082) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.DedicatedServer.b(DedicatedServer.java:399) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:984) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [server.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+Caused by: java.lang.ClassCastException: org.bukkit.craftbukkit.v1_15_R1.entity.CraftChicken cannot be cast to org.bukkit.entity.Player
+	at Crd.Code.Listeners.onDamage(Listeners.java:102) ~[?:?]
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_252]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_252]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[server.jar:git-Spigot-800b93f-8160e29]
+	... 42 more
+[16:35:35] [Server thread/ERROR]: Could not pass event EntityDamageByEntityEvent to SuperLogin v1.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:320) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:529) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:514) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.craftbukkit.v1_15_R1.event.CraftEventFactory.callEvent(CraftEventFactory.java:230) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.craftbukkit.v1_15_R1.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:923) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.craftbukkit.v1_15_R1.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:810) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.craftbukkit.v1_15_R1.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:766) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.craftbukkit.v1_15_R1.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:955) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.EntityLiving.damageEntity0(EntityLiving.java:1624) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.EntityLiving.damageEntity(EntityLiving.java:1028) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.EntityInsentient.B(EntityInsentient.java:1294) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.EntityFox$l.a(EntityFox.java:1255) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.PathfinderGoalMeleeAttack.e(SourceFile:131) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.PathfinderGoalWrapped.e(SourceFile:55) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) ~[?:1.8.0_252]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175) ~[?:1.8.0_252]
+	at java.util.Iterator.forEachRemaining(Iterator.java:116) ~[?:1.8.0_252]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801) ~[?:1.8.0_252]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482) ~[?:1.8.0_252]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472) ~[?:1.8.0_252]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) ~[?:1.8.0_252]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) ~[?:1.8.0_252]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:1.8.0_252]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:485) ~[?:1.8.0_252]
+	at net.minecraft.server.v1_15_R1.PathfinderGoalSelector.doTick(SourceFile:80) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.EntityInsentient.doTick(EntityInsentient.java:655) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.EntityLiving.movementTick(EntityLiving.java:2521) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.EntityInsentient.movementTick(EntityInsentient.java:504) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.EntityAgeable.movementTick(EntityAgeable.java:170) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.EntityAnimal.movementTick(EntityAnimal.java:28) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.EntityFox.movementTick(EntityFox.java:144) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.EntityLiving.tick(EntityLiving.java:2353) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.EntityInsentient.tick(EntityInsentient.java:273) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.EntityFox.tick(EntityFox.java:419) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.entityJoinedWorld(WorldServer.java:626) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.World.a(World.java:718) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.doTick(WorldServer.java:395) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.b(MinecraftServer.java:1082) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.DedicatedServer.b(DedicatedServer.java:399) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:984) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [server.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+Caused by: java.lang.ClassCastException: org.bukkit.craftbukkit.v1_15_R1.entity.CraftChicken cannot be cast to org.bukkit.entity.Player
+	at Crd.Code.Listeners.onDamage(Listeners.java:102) ~[?:?]
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_252]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_252]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[server.jar:git-Spigot-800b93f-8160e29]
+	... 42 more
+[16:35:37] [Server thread/ERROR]: Could not pass event EntityDamageByEntityEvent to SuperLogin v1.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:320) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:529) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:514) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.craftbukkit.v1_15_R1.event.CraftEventFactory.callEvent(CraftEventFactory.java:230) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.craftbukkit.v1_15_R1.event.CraftEventFactory.callEntityDamageEvent(CraftEventFactory.java:923) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.craftbukkit.v1_15_R1.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:810) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.craftbukkit.v1_15_R1.event.CraftEventFactory.handleEntityDamageEvent(CraftEventFactory.java:766) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.craftbukkit.v1_15_R1.event.CraftEventFactory.handleLivingEntityDamageEvent(CraftEventFactory.java:955) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.EntityLiving.damageEntity0(EntityLiving.java:1624) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.EntityLiving.damageEntity(EntityLiving.java:1028) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.EntityInsentient.B(EntityInsentient.java:1294) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.EntityFox$l.a(EntityFox.java:1255) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.PathfinderGoalMeleeAttack.e(SourceFile:131) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.PathfinderGoalWrapped.e(SourceFile:55) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) ~[?:1.8.0_252]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175) ~[?:1.8.0_252]
+	at java.util.Iterator.forEachRemaining(Iterator.java:116) ~[?:1.8.0_252]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801) ~[?:1.8.0_252]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482) ~[?:1.8.0_252]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472) ~[?:1.8.0_252]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) ~[?:1.8.0_252]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) ~[?:1.8.0_252]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:1.8.0_252]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:485) ~[?:1.8.0_252]
+	at net.minecraft.server.v1_15_R1.PathfinderGoalSelector.doTick(SourceFile:80) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.EntityInsentient.doTick(EntityInsentient.java:655) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.EntityLiving.movementTick(EntityLiving.java:2521) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.EntityInsentient.movementTick(EntityInsentient.java:504) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.EntityAgeable.movementTick(EntityAgeable.java:170) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.EntityAnimal.movementTick(EntityAnimal.java:28) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.EntityFox.movementTick(EntityFox.java:144) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.EntityLiving.tick(EntityLiving.java:2353) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.EntityInsentient.tick(EntityInsentient.java:273) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.EntityFox.tick(EntityFox.java:419) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.entityJoinedWorld(WorldServer.java:626) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.World.a(World.java:718) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.doTick(WorldServer.java:395) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.b(MinecraftServer.java:1082) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.DedicatedServer.b(DedicatedServer.java:399) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:984) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [server.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+Caused by: java.lang.ClassCastException: org.bukkit.craftbukkit.v1_15_R1.entity.CraftChicken cannot be cast to org.bukkit.entity.Player
+	at Crd.Code.Listeners.onDamage(Listeners.java:102) ~[?:?]
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_252]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_252]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[server.jar:git-Spigot-800b93f-8160e29]
+	... 42 more
+[16:35:40] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[16:35:40] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[16:35:40] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[16:35:40] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[16:35:40] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[16:35:40] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[16:35:40] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[16:35:40] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[16:35:40] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[16:35:40] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[16:35:40] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[16:35:40] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[16:35:41] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[16:35:41] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[16:35:41] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[16:35:42] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[16:35:42] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[16:35:42] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[16:35:42] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[16:35:42] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[16:35:42] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[16:35:42] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[16:35:42] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[16:35:42] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[16:35:42] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[16:35:42] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[16:35:42] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[16:35:42] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[16:35:42] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[16:35:42] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[16:35:42] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[16:35:42] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[16:35:42] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[16:35:42] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[16:35:42] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[16:35:42] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[16:35:42] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[16:35:42] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[16:35:42] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[16:35:42] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[16:35:42] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[16:35:42] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[16:35:42] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[16:35:42] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[16:35:42] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[16:35:42] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[16:35:42] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[16:35:42] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[16:35:42] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[16:35:42] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[16:35:42] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[16:35:42] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[16:35:42] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[16:35:42] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[16:35:42] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[16:35:42] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[16:35:42] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[16:35:42] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[16:35:42] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[16:35:42] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[16:35:42] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[16:35:42] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[16:35:42] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[16:35:43] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[16:35:43] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[16:35:43] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[16:35:43] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[16:35:43] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[16:35:43] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[16:35:43] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[16:35:43] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[16:35:43] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[16:35:43] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[16:35:43] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[16:35:43] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[16:35:43] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[16:35:43] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[16:35:43] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[16:35:43] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[16:35:43] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[16:35:43] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[16:35:43] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[16:35:43] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[16:35:43] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[16:35:43] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[16:35:43] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[16:35:43] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[16:35:44] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[16:35:44] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[16:35:44] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[16:35:44] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[16:35:44] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[16:35:44] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[16:35:44] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[16:35:44] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[16:35:44] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[16:35:44] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[16:35:44] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[16:35:44] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[16:36:09] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[16:36:09] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[16:36:09] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[16:36:09] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[16:36:09] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[16:36:09] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[16:36:09] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[16:36:09] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[16:36:09] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[16:36:09] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[16:36:09] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[16:36:09] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[16:36:09] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[16:36:09] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[16:36:09] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[16:36:10] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[16:36:10] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[16:36:10] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[16:36:10] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[16:36:10] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[16:36:10] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[16:36:11] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[16:36:11] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[16:36:11] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[16:36:11] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[16:36:11] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[16:36:11] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[16:36:12] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[16:36:12] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[16:36:12] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[16:36:12] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[16:36:12] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[16:36:12] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[16:36:14] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[16:36:14] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[16:36:14] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[16:36:15] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[16:36:15] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[16:36:15] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[16:36:18] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[16:36:18] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[16:36:18] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[16:36:20] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[16:36:20] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[16:36:20] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[16:36:20] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[16:36:20] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[16:36:20] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[16:36:20] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[16:36:20] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[16:36:20] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[16:36:20] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[16:36:20] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[16:36:20] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[16:36:44] [Server thread/ERROR]: Could not save data net.minecraft.server.v1_15_R1.PersistentRaid@60d9add9
+java.io.FileNotFoundException: ./world/data/raids.dat (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[?:1.8.0_252]
+	at net.minecraft.server.v1_15_R1.PersistentBase.a(SourceFile:51) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldPersistentData.a(SourceFile:121) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.m_(WorldServer.java:827) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.save(WorldServer.java:806) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.saveChunks(MinecraftServer.java:655) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:1004) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [server.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+[16:36:44] [Server thread/ERROR]: Could not save data net.minecraft.server.v1_15_R1.PersistentRaid@42f348c6
+java.io.FileNotFoundException: ./world_nether/DIM-1/data/raids_nether.dat (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[?:1.8.0_252]
+	at net.minecraft.server.v1_15_R1.PersistentBase.a(SourceFile:51) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldPersistentData.a(SourceFile:121) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.m_(WorldServer.java:827) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.save(WorldServer.java:806) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.saveChunks(MinecraftServer.java:655) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:1004) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [server.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+[16:36:44] [Server thread/ERROR]: Could not save data net.minecraft.server.v1_15_R1.PersistentRaid@225feb6c
+java.io.FileNotFoundException: ./world_the_end/DIM1/data/raids_end.dat (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[?:1.8.0_252]
+	at net.minecraft.server.v1_15_R1.PersistentBase.a(SourceFile:51) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldPersistentData.a(SourceFile:121) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.m_(WorldServer.java:827) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.save(WorldServer.java:806) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.saveChunks(MinecraftServer.java:655) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:1004) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [server.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+[16:36:58] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[16:36:58] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[16:36:58] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[16:36:58] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[16:36:58] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[16:36:58] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[16:36:58] [Server thread/WARN]: Ignoring unknown attribute 'forge.swimSpeed'
+[16:36:58] [Server thread/WARN]: Ignoring unknown attribute 'forge.nameTagDistance'
+[16:36:58] [Server thread/WARN]: Ignoring unknown attribute 'forge.entity_gravity'
+[16:41:44] [Server thread/ERROR]: Could not save data net.minecraft.server.v1_15_R1.PersistentRaid@60d9add9
+java.io.FileNotFoundException: ./world/data/raids.dat (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[?:1.8.0_252]
+	at net.minecraft.server.v1_15_R1.PersistentBase.a(SourceFile:51) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldPersistentData.a(SourceFile:121) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.m_(WorldServer.java:827) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.save(WorldServer.java:806) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.saveChunks(MinecraftServer.java:655) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:1004) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [server.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+[16:41:45] [Server thread/ERROR]: Could not save data net.minecraft.server.v1_15_R1.PersistentRaid@42f348c6
+java.io.FileNotFoundException: ./world_nether/DIM-1/data/raids_nether.dat (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[?:1.8.0_252]
+	at net.minecraft.server.v1_15_R1.PersistentBase.a(SourceFile:51) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldPersistentData.a(SourceFile:121) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.m_(WorldServer.java:827) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.save(WorldServer.java:806) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.saveChunks(MinecraftServer.java:655) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:1004) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [server.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+[16:41:45] [Server thread/ERROR]: Could not save data net.minecraft.server.v1_15_R1.PersistentRaid@225feb6c
+java.io.FileNotFoundException: ./world_the_end/DIM1/data/raids_end.dat (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[?:1.8.0_252]
+	at net.minecraft.server.v1_15_R1.PersistentBase.a(SourceFile:51) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldPersistentData.a(SourceFile:121) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.m_(WorldServer.java:827) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.save(WorldServer.java:806) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.saveChunks(MinecraftServer.java:655) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:1004) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [server.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+[16:43:45] [Server thread/INFO]: seupedro lost connection: Disconnected
+[16:43:45] [Server thread/INFO]: seupedro left the game
