@@ -23498,3 +23498,187 @@ Caused by: java.lang.NoSuchFieldError: SUCCESSFUL_HIT
 [22:59:14] [Server thread/INFO]: seupedro left the game
 [22:59:16] [Server thread/INFO]: TIO_ROB lost connection: Disconnected
 [22:59:16] [Server thread/INFO]: TIO_ROB left the game
+[23:01:53] [User Authenticator #114/INFO]: UUID of player TIO_ROB is c26ea543-2e72-36c4-a8c0-e3ad765c135b
+[23:01:53] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to SuperLogin v1.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:320) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:529) [server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:514) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.PlayerList.a(PlayerList.java:176) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.LoginListener.c(LoginListener.java:154) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.LoginListener.tick(LoginListener.java:53) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.NetworkManager.a(NetworkManager.java:220) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.ServerConnection.c(ServerConnection.java:129) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.b(MinecraftServer.java:1105) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.DedicatedServer.b(DedicatedServer.java:399) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:984) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [server.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+Caused by: java.lang.NoSuchFieldError: SUCCESSFUL_HIT
+	at Crd.Code.Handler.SucessfullLogin(Handler.java:50) ~[?:?]
+	at Crd.Code.Listeners.onJoin(Listeners.java:46) ~[?:?]
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_252]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_252]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[server.jar:git-Spigot-800b93f-8160e29]
+	... 13 more
+[23:01:53] [Server thread/INFO]: TIO_ROB[/177.140.71.244:60377] logged in with entity id 585059 at ([world]-226.44872463166405, 91.0, 9.768379337991648)
+[23:01:58] [Server thread/ERROR]: Could not save data net.minecraft.server.v1_15_R1.PersistentRaid@60d9add9
+java.io.FileNotFoundException: ./world/data/raids.dat (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[?:1.8.0_252]
+	at net.minecraft.server.v1_15_R1.PersistentBase.a(SourceFile:51) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldPersistentData.a(SourceFile:121) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.m_(WorldServer.java:827) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.save(WorldServer.java:806) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.saveChunks(MinecraftServer.java:655) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:1004) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [server.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+[23:01:58] [Server thread/ERROR]: Could not save data net.minecraft.server.v1_15_R1.PersistentRaid@42f348c6
+java.io.FileNotFoundException: ./world_nether/DIM-1/data/raids_nether.dat (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[?:1.8.0_252]
+	at net.minecraft.server.v1_15_R1.PersistentBase.a(SourceFile:51) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldPersistentData.a(SourceFile:121) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.m_(WorldServer.java:827) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.save(WorldServer.java:806) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.saveChunks(MinecraftServer.java:655) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:1004) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [server.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+[23:01:58] [Server thread/ERROR]: Could not save data net.minecraft.server.v1_15_R1.PersistentRaid@225feb6c
+java.io.FileNotFoundException: ./world_the_end/DIM1/data/raids_end.dat (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[?:1.8.0_252]
+	at net.minecraft.server.v1_15_R1.PersistentBase.a(SourceFile:51) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldPersistentData.a(SourceFile:121) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.m_(WorldServer.java:827) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.save(WorldServer.java:806) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.saveChunks(MinecraftServer.java:655) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:1004) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [server.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+[23:03:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5031ms or 100 ticks behind
+[23:03:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5299ms or 105 ticks behind
+[23:03:57] [Server thread/INFO]: TIO_ROB lost connection: Disconnected
+[23:03:57] [Server thread/INFO]: TIO_ROB left the game
+[23:04:03] [User Authenticator #115/INFO]: UUID of player TIO_ROB is c26ea543-2e72-36c4-a8c0-e3ad765c135b
+[23:04:03] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to SuperLogin v1.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:320) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:529) [server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:514) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.PlayerList.a(PlayerList.java:176) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.LoginListener.c(LoginListener.java:154) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.LoginListener.tick(LoginListener.java:53) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.NetworkManager.a(NetworkManager.java:220) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.ServerConnection.c(ServerConnection.java:129) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.b(MinecraftServer.java:1105) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.DedicatedServer.b(DedicatedServer.java:399) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:984) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [server.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+Caused by: java.lang.NoSuchFieldError: SUCCESSFUL_HIT
+	at Crd.Code.Handler.SucessfullLogin(Handler.java:50) ~[?:?]
+	at Crd.Code.Listeners.onJoin(Listeners.java:46) ~[?:?]
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_252]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_252]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[server.jar:git-Spigot-800b93f-8160e29]
+	... 13 more
+[23:04:03] [Server thread/INFO]: TIO_ROB[/177.140.71.244:60411] logged in with entity id 586148 at ([world]-311.30000001192093, 69.0625, -384.69999998807907)
+[23:04:20] [Server thread/INFO]: TIO_ROB lost connection: Disconnected
+[23:04:20] [Server thread/INFO]: TIO_ROB left the game
+[23:07:08] [Server thread/ERROR]: Could not save data net.minecraft.server.v1_15_R1.PersistentRaid@60d9add9
+java.io.FileNotFoundException: ./world/data/raids.dat (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[?:1.8.0_252]
+	at net.minecraft.server.v1_15_R1.PersistentBase.a(SourceFile:51) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldPersistentData.a(SourceFile:121) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.m_(WorldServer.java:827) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.save(WorldServer.java:806) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.saveChunks(MinecraftServer.java:655) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:1004) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [server.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+[23:07:08] [Server thread/ERROR]: Could not save data net.minecraft.server.v1_15_R1.PersistentRaid@42f348c6
+java.io.FileNotFoundException: ./world_nether/DIM-1/data/raids_nether.dat (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[?:1.8.0_252]
+	at net.minecraft.server.v1_15_R1.PersistentBase.a(SourceFile:51) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldPersistentData.a(SourceFile:121) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.m_(WorldServer.java:827) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.save(WorldServer.java:806) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.saveChunks(MinecraftServer.java:655) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:1004) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [server.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+[23:07:08] [Server thread/ERROR]: Could not save data net.minecraft.server.v1_15_R1.PersistentRaid@225feb6c
+java.io.FileNotFoundException: ./world_the_end/DIM1/data/raids_end.dat (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[?:1.8.0_252]
+	at net.minecraft.server.v1_15_R1.PersistentBase.a(SourceFile:51) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldPersistentData.a(SourceFile:121) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.m_(WorldServer.java:827) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.save(WorldServer.java:806) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.saveChunks(MinecraftServer.java:655) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:1004) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [server.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+[23:12:08] [Server thread/ERROR]: Could not save data net.minecraft.server.v1_15_R1.PersistentRaid@60d9add9
+java.io.FileNotFoundException: ./world/data/raids.dat (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[?:1.8.0_252]
+	at net.minecraft.server.v1_15_R1.PersistentBase.a(SourceFile:51) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldPersistentData.a(SourceFile:121) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.m_(WorldServer.java:827) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.save(WorldServer.java:806) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.saveChunks(MinecraftServer.java:655) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:1004) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [server.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+[23:12:08] [Server thread/ERROR]: Could not save data net.minecraft.server.v1_15_R1.PersistentRaid@42f348c6
+java.io.FileNotFoundException: ./world_nether/DIM-1/data/raids_nether.dat (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[?:1.8.0_252]
+	at net.minecraft.server.v1_15_R1.PersistentBase.a(SourceFile:51) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldPersistentData.a(SourceFile:121) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.m_(WorldServer.java:827) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.save(WorldServer.java:806) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.saveChunks(MinecraftServer.java:655) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:1004) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [server.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+[23:12:08] [Server thread/ERROR]: Could not save data net.minecraft.server.v1_15_R1.PersistentRaid@225feb6c
+java.io.FileNotFoundException: ./world_the_end/DIM1/data/raids_end.dat (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[?:1.8.0_252]
+	at net.minecraft.server.v1_15_R1.PersistentBase.a(SourceFile:51) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldPersistentData.a(SourceFile:121) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.m_(WorldServer.java:827) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.save(WorldServer.java:806) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.saveChunks(MinecraftServer.java:655) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:1004) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [server.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
