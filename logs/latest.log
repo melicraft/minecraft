@@ -13926,3 +13926,659 @@ Caused by: java.lang.NoSuchFieldError: SUCCESSFUL_HIT
 [21:59:13] [Server thread/INFO]: seupedro[/189.125.49.228:21434] logged in with entity id 598079 at ([world]-303.6769809243269, 64.90290000319482, 21.520402193069458)
 [21:59:59] [Server thread/INFO]: seupedro lost connection: Disconnected
 [21:59:59] [Server thread/INFO]: seupedro left the game
+[22:00:05] [Server thread/INFO]: TIO_ROB lost connection: Disconnected
+[22:00:05] [Server thread/INFO]: TIO_ROB left the game
+[22:00:07] [User Authenticator #176/INFO]: UUID of player seupedro is c5e08c9e-6ee4-37c9-bdc8-f320cbb191dd
+[22:00:07] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to SuperLogin v1.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:320) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:529) [server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:514) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.PlayerList.a(PlayerList.java:176) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.LoginListener.c(LoginListener.java:154) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.LoginListener.tick(LoginListener.java:53) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.NetworkManager.a(NetworkManager.java:220) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.ServerConnection.c(ServerConnection.java:129) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.b(MinecraftServer.java:1105) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.DedicatedServer.b(DedicatedServer.java:399) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:984) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [server.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+Caused by: java.lang.NoSuchFieldError: SUCCESSFUL_HIT
+	at Crd.Code.Handler.SucessfullLogin(Handler.java:50) ~[?:?]
+	at Crd.Code.Listeners.onJoin(Listeners.java:46) ~[?:?]
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_252]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_252]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[server.jar:git-Spigot-800b93f-8160e29]
+	... 13 more
+[22:00:07] [Server thread/INFO]: seupedro[/189.125.49.228:47297] logged in with entity id 598185 at ([world]-305.0046188533306, 64.90290000319482, 21.89674174785614)
+[22:00:30] [User Authenticator #177/INFO]: UUID of player TIO_ROB is c26ea543-2e72-36c4-a8c0-e3ad765c135b
+[22:00:30] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to SuperLogin v1.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:320) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:529) [server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:514) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.PlayerList.a(PlayerList.java:176) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.LoginListener.c(LoginListener.java:154) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.LoginListener.tick(LoginListener.java:53) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.NetworkManager.a(NetworkManager.java:220) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.ServerConnection.c(ServerConnection.java:129) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.b(MinecraftServer.java:1105) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.DedicatedServer.b(DedicatedServer.java:399) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:984) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [server.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+Caused by: java.lang.NoSuchFieldError: SUCCESSFUL_HIT
+	at Crd.Code.Handler.SucessfullLogin(Handler.java:50) ~[?:?]
+	at Crd.Code.Listeners.onJoin(Listeners.java:46) ~[?:?]
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_252]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_252]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[server.jar:git-Spigot-800b93f-8160e29]
+	... 13 more
+[22:00:30] [Server thread/INFO]: TIO_ROB[/189.125.49.228:14832] logged in with entity id 598225 at ([world]-302.92184938682055, 63.0, 18.87235050551919)
+[22:00:38] [Server thread/INFO]: seupedro lost connection: Disconnected
+[22:00:38] [Server thread/INFO]: seupedro left the game
+[22:00:44] [User Authenticator #178/INFO]: UUID of player seupedro is c5e08c9e-6ee4-37c9-bdc8-f320cbb191dd
+[22:00:44] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to SuperLogin v1.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:320) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:529) [server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:514) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.PlayerList.a(PlayerList.java:176) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.LoginListener.c(LoginListener.java:154) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.LoginListener.tick(LoginListener.java:53) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.NetworkManager.a(NetworkManager.java:220) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.ServerConnection.c(ServerConnection.java:129) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.b(MinecraftServer.java:1105) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.DedicatedServer.b(DedicatedServer.java:399) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:984) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [server.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+Caused by: java.lang.NoSuchFieldError: SUCCESSFUL_HIT
+	at Crd.Code.Handler.SucessfullLogin(Handler.java:50) ~[?:?]
+	at Crd.Code.Listeners.onJoin(Listeners.java:46) ~[?:?]
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_252]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_252]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[server.jar:git-Spigot-800b93f-8160e29]
+	... 13 more
+[22:00:44] [Server thread/INFO]: seupedro[/189.125.49.228:27605] logged in with entity id 598254 at ([world]-305.2979087382555, 64.90290000319482, 20.508343175053596)
+[22:01:50] [Server thread/INFO]: seupedro lost connection: Disconnected
+[22:01:50] [Server thread/INFO]: seupedro left the game
+[22:01:54] [User Authenticator #179/INFO]: UUID of player seupedro is c5e08c9e-6ee4-37c9-bdc8-f320cbb191dd
+[22:01:54] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to SuperLogin v1.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:320) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:529) [server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:514) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.PlayerList.a(PlayerList.java:176) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.LoginListener.c(LoginListener.java:154) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.LoginListener.tick(LoginListener.java:53) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.NetworkManager.a(NetworkManager.java:220) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.ServerConnection.c(ServerConnection.java:129) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.b(MinecraftServer.java:1105) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.DedicatedServer.b(DedicatedServer.java:399) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:984) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [server.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+Caused by: java.lang.NoSuchFieldError: SUCCESSFUL_HIT
+	at Crd.Code.Handler.SucessfullLogin(Handler.java:50) ~[?:?]
+	at Crd.Code.Listeners.onJoin(Listeners.java:46) ~[?:?]
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_252]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_252]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[server.jar:git-Spigot-800b93f-8160e29]
+	... 13 more
+[22:01:54] [Server thread/INFO]: seupedro[/189.125.49.228:49304] logged in with entity id 598385 at ([world]-303.2506848424673, 64.90290000319482, 23.021493420004845)
+[22:02:07] [Server thread/INFO]: seupedro lost connection: Disconnected
+[22:02:07] [Server thread/INFO]: seupedro left the game
+[22:02:08] [Server thread/ERROR]: Could not save data net.minecraft.server.v1_15_R1.PersistentRaid@60d9add9
+java.io.FileNotFoundException: ./world/data/raids.dat (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[?:1.8.0_252]
+	at net.minecraft.server.v1_15_R1.PersistentBase.a(SourceFile:51) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldPersistentData.a(SourceFile:121) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.m_(WorldServer.java:827) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.save(WorldServer.java:806) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.saveChunks(MinecraftServer.java:655) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:1004) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [server.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+[22:02:08] [Server thread/ERROR]: Could not save data net.minecraft.server.v1_15_R1.PersistentRaid@42f348c6
+java.io.FileNotFoundException: ./world_nether/DIM-1/data/raids_nether.dat (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[?:1.8.0_252]
+	at net.minecraft.server.v1_15_R1.PersistentBase.a(SourceFile:51) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldPersistentData.a(SourceFile:121) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.m_(WorldServer.java:827) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.save(WorldServer.java:806) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.saveChunks(MinecraftServer.java:655) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:1004) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [server.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+[22:02:08] [Server thread/ERROR]: Could not save data net.minecraft.server.v1_15_R1.PersistentRaid@225feb6c
+java.io.FileNotFoundException: ./world_the_end/DIM1/data/raids_end.dat (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[?:1.8.0_252]
+	at net.minecraft.server.v1_15_R1.PersistentBase.a(SourceFile:51) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldPersistentData.a(SourceFile:121) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.m_(WorldServer.java:827) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.save(WorldServer.java:806) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.saveChunks(MinecraftServer.java:655) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:1004) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [server.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+[22:02:12] [User Authenticator #180/INFO]: UUID of player seupedro is c5e08c9e-6ee4-37c9-bdc8-f320cbb191dd
+[22:02:12] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to SuperLogin v1.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:320) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:529) [server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:514) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.PlayerList.a(PlayerList.java:176) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.LoginListener.c(LoginListener.java:154) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.LoginListener.tick(LoginListener.java:53) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.NetworkManager.a(NetworkManager.java:220) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.ServerConnection.c(ServerConnection.java:129) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.b(MinecraftServer.java:1105) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.DedicatedServer.b(DedicatedServer.java:399) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:984) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [server.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+Caused by: java.lang.NoSuchFieldError: SUCCESSFUL_HIT
+	at Crd.Code.Handler.SucessfullLogin(Handler.java:50) ~[?:?]
+	at Crd.Code.Listeners.onJoin(Listeners.java:46) ~[?:?]
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_252]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_252]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[server.jar:git-Spigot-800b93f-8160e29]
+	... 13 more
+[22:02:12] [Server thread/INFO]: seupedro[/189.125.49.228:45049] logged in with entity id 598410 at ([world]-303.17392110079527, 64.90290000319482, 21.99794167280197)
+[22:02:48] [Server thread/INFO]: seupedro lost connection: Disconnected
+[22:02:48] [Server thread/INFO]: seupedro left the game
+[22:02:54] [User Authenticator #181/INFO]: UUID of player seupedro is c5e08c9e-6ee4-37c9-bdc8-f320cbb191dd
+[22:02:55] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to SuperLogin v1.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:320) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:529) [server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:514) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.PlayerList.a(PlayerList.java:176) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.LoginListener.c(LoginListener.java:154) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.LoginListener.tick(LoginListener.java:53) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.NetworkManager.a(NetworkManager.java:220) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.ServerConnection.c(ServerConnection.java:129) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.b(MinecraftServer.java:1105) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.DedicatedServer.b(DedicatedServer.java:399) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:984) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [server.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+Caused by: java.lang.NoSuchFieldError: SUCCESSFUL_HIT
+	at Crd.Code.Handler.SucessfullLogin(Handler.java:50) ~[?:?]
+	at Crd.Code.Listeners.onJoin(Listeners.java:46) ~[?:?]
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_252]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_252]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[server.jar:git-Spigot-800b93f-8160e29]
+	... 13 more
+[22:02:55] [Server thread/INFO]: seupedro[/189.125.49.228:6327] logged in with entity id 598518 at ([world]-304.80521020293236, 64.90290000319482, 22.165447428822517)
+[22:06:54] [Server thread/INFO]: seupedro lost connection: Disconnected
+[22:06:54] [Server thread/INFO]: seupedro left the game
+[22:06:58] [User Authenticator #182/INFO]: UUID of player seupedro is c5e08c9e-6ee4-37c9-bdc8-f320cbb191dd
+[22:06:58] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to SuperLogin v1.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:320) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:529) [server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:514) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.PlayerList.a(PlayerList.java:176) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.LoginListener.c(LoginListener.java:154) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.LoginListener.tick(LoginListener.java:53) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.NetworkManager.a(NetworkManager.java:220) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.ServerConnection.c(ServerConnection.java:129) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.b(MinecraftServer.java:1105) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.DedicatedServer.b(DedicatedServer.java:399) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:984) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [server.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+Caused by: java.lang.NoSuchFieldError: SUCCESSFUL_HIT
+	at Crd.Code.Handler.SucessfullLogin(Handler.java:50) ~[?:?]
+	at Crd.Code.Listeners.onJoin(Listeners.java:46) ~[?:?]
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_252]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_252]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[server.jar:git-Spigot-800b93f-8160e29]
+	... 13 more
+[22:06:58] [Server thread/INFO]: seupedro[/189.125.49.228:17328] logged in with entity id 598999 at ([world]-304.58752650089633, 64.90290000319482, 22.161097048985777)
+[22:07:08] [Server thread/ERROR]: Could not save data net.minecraft.server.v1_15_R1.PersistentRaid@60d9add9
+java.io.FileNotFoundException: ./world/data/raids.dat (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[?:1.8.0_252]
+	at net.minecraft.server.v1_15_R1.PersistentBase.a(SourceFile:51) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldPersistentData.a(SourceFile:121) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.m_(WorldServer.java:827) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.save(WorldServer.java:806) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.saveChunks(MinecraftServer.java:655) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:1004) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [server.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+[22:07:08] [Server thread/ERROR]: Could not save data net.minecraft.server.v1_15_R1.PersistentRaid@42f348c6
+java.io.FileNotFoundException: ./world_nether/DIM-1/data/raids_nether.dat (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[?:1.8.0_252]
+	at net.minecraft.server.v1_15_R1.PersistentBase.a(SourceFile:51) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldPersistentData.a(SourceFile:121) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.m_(WorldServer.java:827) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.save(WorldServer.java:806) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.saveChunks(MinecraftServer.java:655) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:1004) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [server.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+[22:07:08] [Server thread/ERROR]: Could not save data net.minecraft.server.v1_15_R1.PersistentRaid@225feb6c
+java.io.FileNotFoundException: ./world_the_end/DIM1/data/raids_end.dat (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[?:1.8.0_252]
+	at net.minecraft.server.v1_15_R1.PersistentBase.a(SourceFile:51) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldPersistentData.a(SourceFile:121) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.m_(WorldServer.java:827) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.save(WorldServer.java:806) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.saveChunks(MinecraftServer.java:655) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:1004) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [server.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+[22:07:11] [Server thread/INFO]: seupedro lost connection: Disconnected
+[22:07:11] [Server thread/INFO]: seupedro left the game
+[22:07:15] [User Authenticator #183/INFO]: UUID of player seupedro is c5e08c9e-6ee4-37c9-bdc8-f320cbb191dd
+[22:07:15] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to SuperLogin v1.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:320) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:529) [server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:514) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.PlayerList.a(PlayerList.java:176) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.LoginListener.c(LoginListener.java:154) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.LoginListener.tick(LoginListener.java:53) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.NetworkManager.a(NetworkManager.java:220) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.ServerConnection.c(ServerConnection.java:129) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.b(MinecraftServer.java:1105) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.DedicatedServer.b(DedicatedServer.java:399) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:984) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [server.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+Caused by: java.lang.NoSuchFieldError: SUCCESSFUL_HIT
+	at Crd.Code.Handler.SucessfullLogin(Handler.java:50) ~[?:?]
+	at Crd.Code.Listeners.onJoin(Listeners.java:46) ~[?:?]
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_252]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_252]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[server.jar:git-Spigot-800b93f-8160e29]
+	... 13 more
+[22:07:15] [Server thread/INFO]: seupedro[/189.125.49.228:40438] logged in with entity id 599048 at ([world]-304.902830272913, 64.90290000319482, 21.89367437362671)
+[22:07:26] [Server thread/INFO]: seupedro lost connection: Disconnected
+[22:07:26] [Server thread/INFO]: seupedro left the game
+[22:07:30] [User Authenticator #184/INFO]: UUID of player seupedro is c5e08c9e-6ee4-37c9-bdc8-f320cbb191dd
+[22:07:31] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to SuperLogin v1.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:320) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:529) [server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:514) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.PlayerList.a(PlayerList.java:176) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.LoginListener.c(LoginListener.java:154) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.LoginListener.tick(LoginListener.java:53) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.NetworkManager.a(NetworkManager.java:220) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.ServerConnection.c(ServerConnection.java:129) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.b(MinecraftServer.java:1105) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.DedicatedServer.b(DedicatedServer.java:399) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:984) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [server.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+Caused by: java.lang.NoSuchFieldError: SUCCESSFUL_HIT
+	at Crd.Code.Handler.SucessfullLogin(Handler.java:50) ~[?:?]
+	at Crd.Code.Listeners.onJoin(Listeners.java:46) ~[?:?]
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_252]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_252]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[server.jar:git-Spigot-800b93f-8160e29]
+	... 13 more
+[22:07:31] [Server thread/INFO]: seupedro[/189.125.49.228:51295] logged in with entity id 599066 at ([world]-304.46649788320065, 64.90290000319482, 21.053567692637444)
+[22:07:44] [Server thread/INFO]: seupedro lost connection: Disconnected
+[22:07:44] [Server thread/INFO]: seupedro left the game
+[22:07:48] [User Authenticator #185/INFO]: UUID of player seupedro is c5e08c9e-6ee4-37c9-bdc8-f320cbb191dd
+[22:07:48] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to SuperLogin v1.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:320) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:529) [server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:514) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.PlayerList.a(PlayerList.java:176) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.LoginListener.c(LoginListener.java:154) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.LoginListener.tick(LoginListener.java:53) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.NetworkManager.a(NetworkManager.java:220) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.ServerConnection.c(ServerConnection.java:129) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.b(MinecraftServer.java:1105) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.DedicatedServer.b(DedicatedServer.java:399) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:984) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [server.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+Caused by: java.lang.NoSuchFieldError: SUCCESSFUL_HIT
+	at Crd.Code.Handler.SucessfullLogin(Handler.java:50) ~[?:?]
+	at Crd.Code.Listeners.onJoin(Listeners.java:46) ~[?:?]
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_252]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_252]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[server.jar:git-Spigot-800b93f-8160e29]
+	... 13 more
+[22:07:48] [Server thread/INFO]: seupedro[/189.125.49.228:9221] logged in with entity id 599097 at ([world]-303.7268949456047, 64.90290000319482, 22.017037004232407)
+[22:08:04] [Server thread/INFO]: seupedro lost connection: Disconnected
+[22:08:04] [Server thread/INFO]: seupedro left the game
+[22:08:09] [User Authenticator #186/INFO]: UUID of player seupedro is c5e08c9e-6ee4-37c9-bdc8-f320cbb191dd
+[22:08:09] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to SuperLogin v1.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:320) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:529) [server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:514) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.PlayerList.a(PlayerList.java:176) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.LoginListener.c(LoginListener.java:154) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.LoginListener.tick(LoginListener.java:53) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.NetworkManager.a(NetworkManager.java:220) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.ServerConnection.c(ServerConnection.java:129) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.b(MinecraftServer.java:1105) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.DedicatedServer.b(DedicatedServer.java:399) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:984) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [server.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+Caused by: java.lang.NoSuchFieldError: SUCCESSFUL_HIT
+	at Crd.Code.Handler.SucessfullLogin(Handler.java:50) ~[?:?]
+	at Crd.Code.Listeners.onJoin(Listeners.java:46) ~[?:?]
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_252]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_252]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[server.jar:git-Spigot-800b93f-8160e29]
+	... 13 more
+[22:08:09] [Server thread/INFO]: seupedro[/189.125.49.228:11484] logged in with entity id 599138 at ([world]-303.4602786898613, 64.90290000319482, 22.384686678647995)
+[22:08:27] [Server thread/INFO]: seupedro lost connection: Disconnected
+[22:08:27] [Server thread/INFO]: seupedro left the game
+[22:08:32] [User Authenticator #187/INFO]: UUID of player seupedro is c5e08c9e-6ee4-37c9-bdc8-f320cbb191dd
+[22:08:33] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to SuperLogin v1.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:320) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:529) [server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:514) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.PlayerList.a(PlayerList.java:176) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.LoginListener.c(LoginListener.java:154) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.LoginListener.tick(LoginListener.java:53) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.NetworkManager.a(NetworkManager.java:220) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.ServerConnection.c(ServerConnection.java:129) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.b(MinecraftServer.java:1105) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.DedicatedServer.b(DedicatedServer.java:399) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:984) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [server.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+Caused by: java.lang.NoSuchFieldError: SUCCESSFUL_HIT
+	at Crd.Code.Handler.SucessfullLogin(Handler.java:50) ~[?:?]
+	at Crd.Code.Listeners.onJoin(Listeners.java:46) ~[?:?]
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_252]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_252]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[server.jar:git-Spigot-800b93f-8160e29]
+	... 13 more
+[22:08:33] [Server thread/INFO]: seupedro[/189.125.49.228:4155] logged in with entity id 599176 at ([world]-303.3672487549484, 64.90290000319482, 22.410888195037842)
+[22:09:11] [Server thread/INFO]: seupedro lost connection: Disconnected
+[22:09:11] [Server thread/INFO]: seupedro left the game
+[22:09:14] [User Authenticator #188/INFO]: UUID of player seupedro is c5e08c9e-6ee4-37c9-bdc8-f320cbb191dd
+[22:09:14] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to SuperLogin v1.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:320) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:529) [server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:514) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.PlayerList.a(PlayerList.java:176) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.LoginListener.c(LoginListener.java:154) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.LoginListener.tick(LoginListener.java:53) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.NetworkManager.a(NetworkManager.java:220) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.ServerConnection.c(ServerConnection.java:129) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.b(MinecraftServer.java:1105) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.DedicatedServer.b(DedicatedServer.java:399) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:984) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [server.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+Caused by: java.lang.NoSuchFieldError: SUCCESSFUL_HIT
+	at Crd.Code.Handler.SucessfullLogin(Handler.java:50) ~[?:?]
+	at Crd.Code.Listeners.onJoin(Listeners.java:46) ~[?:?]
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_252]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_252]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[server.jar:git-Spigot-800b93f-8160e29]
+	... 13 more
+[22:09:15] [Server thread/INFO]: seupedro[/189.125.49.228:24030] logged in with entity id 599285 at ([world]-302.4924670085311, 64.90290000319482, 22.346576780080795)
+[22:09:34] [Server thread/INFO]: seupedro lost connection: Disconnected
+[22:09:34] [Server thread/INFO]: seupedro left the game
+[22:09:39] [User Authenticator #189/INFO]: UUID of player seupedro is c5e08c9e-6ee4-37c9-bdc8-f320cbb191dd
+[22:09:39] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to SuperLogin v1.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:320) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:529) [server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:514) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.PlayerList.a(PlayerList.java:176) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.LoginListener.c(LoginListener.java:154) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.LoginListener.tick(LoginListener.java:53) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.NetworkManager.a(NetworkManager.java:220) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.ServerConnection.c(ServerConnection.java:129) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.b(MinecraftServer.java:1105) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.DedicatedServer.b(DedicatedServer.java:399) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:984) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [server.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+Caused by: java.lang.NoSuchFieldError: SUCCESSFUL_HIT
+	at Crd.Code.Handler.SucessfullLogin(Handler.java:50) ~[?:?]
+	at Crd.Code.Listeners.onJoin(Listeners.java:46) ~[?:?]
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_252]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_252]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[server.jar:git-Spigot-800b93f-8160e29]
+	... 13 more
+[22:09:39] [Server thread/INFO]: seupedro[/189.125.49.228:47374] logged in with entity id 599322 at ([world]-302.2895198762417, 64.90290000319482, 21.192584484815598)
+[22:09:57] [Server thread/INFO]: seupedro lost connection: Disconnected
+[22:09:57] [Server thread/INFO]: seupedro left the game
+[22:10:02] [User Authenticator #190/INFO]: UUID of player seupedro is c5e08c9e-6ee4-37c9-bdc8-f320cbb191dd
+[22:10:02] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to SuperLogin v1.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:320) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:529) [server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:514) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.PlayerList.a(PlayerList.java:176) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.LoginListener.c(LoginListener.java:154) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.LoginListener.tick(LoginListener.java:53) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.NetworkManager.a(NetworkManager.java:220) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.ServerConnection.c(ServerConnection.java:129) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.b(MinecraftServer.java:1105) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.DedicatedServer.b(DedicatedServer.java:399) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:984) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [server.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+Caused by: java.lang.NoSuchFieldError: SUCCESSFUL_HIT
+	at Crd.Code.Handler.SucessfullLogin(Handler.java:50) ~[?:?]
+	at Crd.Code.Listeners.onJoin(Listeners.java:46) ~[?:?]
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_252]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_252]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[server.jar:git-Spigot-800b93f-8160e29]
+	... 13 more
+[22:10:02] [Server thread/INFO]: seupedro[/189.125.49.228:41674] logged in with entity id 599386 at ([world]-302.9564545750618, 64.90290000319482, 20.967074126005173)
+[22:11:03] [Server thread/INFO]: TIO_ROB lost connection: Disconnected
+[22:11:03] [Server thread/INFO]: TIO_ROB left the game
+[22:12:08] [Server thread/ERROR]: Could not save data net.minecraft.server.v1_15_R1.PersistentRaid@60d9add9
+java.io.FileNotFoundException: ./world/data/raids.dat (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[?:1.8.0_252]
+	at net.minecraft.server.v1_15_R1.PersistentBase.a(SourceFile:51) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldPersistentData.a(SourceFile:121) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.m_(WorldServer.java:827) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.save(WorldServer.java:806) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.saveChunks(MinecraftServer.java:655) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:1004) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [server.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+[22:12:08] [Server thread/ERROR]: Could not save data net.minecraft.server.v1_15_R1.PersistentRaid@42f348c6
+java.io.FileNotFoundException: ./world_nether/DIM-1/data/raids_nether.dat (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[?:1.8.0_252]
+	at net.minecraft.server.v1_15_R1.PersistentBase.a(SourceFile:51) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldPersistentData.a(SourceFile:121) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.m_(WorldServer.java:827) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.save(WorldServer.java:806) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.saveChunks(MinecraftServer.java:655) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:1004) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [server.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+[22:12:08] [Server thread/ERROR]: Could not save data net.minecraft.server.v1_15_R1.PersistentRaid@225feb6c
+java.io.FileNotFoundException: ./world_the_end/DIM1/data/raids_end.dat (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.open(FileOutputStream.java:270) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213) ~[?:1.8.0_252]
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162) ~[?:1.8.0_252]
+	at net.minecraft.server.v1_15_R1.PersistentBase.a(SourceFile:51) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldPersistentData.a(SourceFile:121) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.m_(WorldServer.java:827) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.WorldServer.save(WorldServer.java:806) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.saveChunks(MinecraftServer.java:655) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:1004) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [server.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+[22:12:49] [User Authenticator #191/INFO]: UUID of player TIO_ROB is c26ea543-2e72-36c4-a8c0-e3ad765c135b
+[22:12:49] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to SuperLogin v1.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:320) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:529) [server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:514) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.PlayerList.a(PlayerList.java:176) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.LoginListener.c(LoginListener.java:154) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.LoginListener.tick(LoginListener.java:53) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.NetworkManager.a(NetworkManager.java:220) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.ServerConnection.c(ServerConnection.java:129) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.b(MinecraftServer.java:1105) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.DedicatedServer.b(DedicatedServer.java:399) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:984) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [server.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+Caused by: java.lang.NoSuchFieldError: SUCCESSFUL_HIT
+	at Crd.Code.Handler.SucessfullLogin(Handler.java:50) ~[?:?]
+	at Crd.Code.Listeners.onJoin(Listeners.java:46) ~[?:?]
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_252]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_252]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[server.jar:git-Spigot-800b93f-8160e29]
+	... 13 more
+[22:12:49] [Server thread/INFO]: TIO_ROB[/189.125.49.228:2918] logged in with entity id 599661 at ([world]-303.45610984289993, 64.5, 19.55391541459281)
+[22:12:59] [Server thread/INFO]: seupedro lost connection: Disconnected
+[22:12:59] [Server thread/INFO]: seupedro left the game
+[22:13:03] [User Authenticator #192/INFO]: UUID of player seupedro is c5e08c9e-6ee4-37c9-bdc8-f320cbb191dd
+[22:13:03] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to SuperLogin v1.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:320) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:529) [server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:514) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.PlayerList.a(PlayerList.java:176) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.LoginListener.c(LoginListener.java:154) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.LoginListener.tick(LoginListener.java:53) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.NetworkManager.a(NetworkManager.java:220) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.ServerConnection.c(ServerConnection.java:129) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.b(MinecraftServer.java:1105) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.DedicatedServer.b(DedicatedServer.java:399) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:984) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [server.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+Caused by: java.lang.NoSuchFieldError: SUCCESSFUL_HIT
+	at Crd.Code.Handler.SucessfullLogin(Handler.java:50) ~[?:?]
+	at Crd.Code.Listeners.onJoin(Listeners.java:46) ~[?:?]
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_252]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_252]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[server.jar:git-Spigot-800b93f-8160e29]
+	... 13 more
+[22:13:03] [Server thread/INFO]: seupedro[/189.125.49.228:8183] logged in with entity id 599696 at ([world]-302.1634016633034, 64.90290000319482, 20.77738747280091)
+[22:13:22] [Server thread/INFO]: seupedro lost connection: Disconnected
+[22:13:22] [Server thread/INFO]: seupedro left the game
+[22:13:28] [User Authenticator #193/INFO]: UUID of player seupedro is c5e08c9e-6ee4-37c9-bdc8-f320cbb191dd
+[22:13:28] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to SuperLogin v1.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:320) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:529) [server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:514) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.PlayerList.a(PlayerList.java:176) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.LoginListener.c(LoginListener.java:154) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.LoginListener.tick(LoginListener.java:53) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.NetworkManager.a(NetworkManager.java:220) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.ServerConnection.c(ServerConnection.java:129) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.b(MinecraftServer.java:1105) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.DedicatedServer.b(DedicatedServer.java:399) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:984) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [server.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+Caused by: java.lang.NoSuchFieldError: SUCCESSFUL_HIT
+	at Crd.Code.Handler.SucessfullLogin(Handler.java:50) ~[?:?]
+	at Crd.Code.Listeners.onJoin(Listeners.java:46) ~[?:?]
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_252]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_252]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[server.jar:git-Spigot-800b93f-8160e29]
+	... 13 more
+[22:13:28] [Server thread/INFO]: seupedro[/189.125.49.228:8058] logged in with entity id 599744 at ([world]-302.32661186158657, 64.90290000319482, 21.607589185237885)
+[22:14:02] [Server thread/INFO]: seupedro lost connection: Disconnected
+[22:14:02] [Server thread/INFO]: seupedro left the game
+[22:14:07] [User Authenticator #194/INFO]: UUID of player seupedro is c5e08c9e-6ee4-37c9-bdc8-f320cbb191dd
+[22:14:07] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to SuperLogin v1.1
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:320) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:529) [server.jar:git-Spigot-800b93f-8160e29]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:514) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.PlayerList.a(PlayerList.java:176) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.LoginListener.c(LoginListener.java:154) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.LoginListener.tick(LoginListener.java:53) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.NetworkManager.a(NetworkManager.java:220) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.ServerConnection.c(ServerConnection.java:129) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.b(MinecraftServer.java:1105) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.DedicatedServer.b(DedicatedServer.java:399) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.a(MinecraftServer.java:984) [server.jar:git-Spigot-800b93f-8160e29]
+	at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:824) [server.jar:git-Spigot-800b93f-8160e29]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+Caused by: java.lang.NoSuchFieldError: SUCCESSFUL_HIT
+	at Crd.Code.Handler.SucessfullLogin(Handler.java:50) ~[?:?]
+	at Crd.Code.Listeners.onJoin(Listeners.java:46) ~[?:?]
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_252]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_252]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:316) ~[server.jar:git-Spigot-800b93f-8160e29]
+	... 13 more
+[22:14:07] [Server thread/INFO]: seupedro[/189.125.49.228:16151] logged in with entity id 599830 at ([world]-302.7474472820759, 64.90290000319482, 21.61114327609539)
