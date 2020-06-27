@@ -398,6 +398,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/prismarine_stairs": {
+    "criteria": {
+      "has_prismarine": "2020-06-26 23:05:07 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/nether_wart_block": {
     "criteria": {
       "has_nether_wart": "2020-05-25 21:13:47 -0300"
@@ -503,6 +509,12 @@
   "minecraft:recipes/redstone/lectern": {
     "criteria": {
       "has_book": "2020-05-30 02:25:53 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/prismarine_wall": {
+    "criteria": {
+      "has_prismarine": "2020-06-26 23:05:07 -0300"
     },
     "done": true
   },
@@ -696,6 +708,12 @@
   "minecraft:recipes/decorations/light_blue_carpet_from_white_carpet": {
     "criteria": {
       "has_white_carpet": "2020-05-29 19:08:05 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_slab_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2020-06-26 23:05:07 -0300"
     },
     "done": true
   },
@@ -898,6 +916,12 @@
   "minecraft:recipes/food/cooked_mutton_from_smoking": {
     "criteria": {
       "has_mutton": "2020-05-25 19:33:09 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/prismarine_wall_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2020-06-26 23:05:07 -0300"
     },
     "done": true
   },
@@ -1291,6 +1315,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/sea_lantern": {
+    "criteria": {
+      "has_prismarine_crystals": "2020-06-26 23:04:19 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/jungle_planks": {
     "criteria": {
       "has_log": "2020-05-26 22:14:17 -0300"
@@ -1559,17 +1589,21 @@
     "criteria": {
       "minecraft:cold_ocean": "2020-05-25 19:52:19 -0300",
       "minecraft:jungle_edge": "2020-05-26 22:09:27 -0300",
+      "minecraft:snowy_mountains": "2020-06-26 23:07:51 -0300",
       "minecraft:forest": "2020-05-25 19:32:19 -0300",
       "minecraft:mountains": "2020-05-25 20:49:26 -0300",
       "minecraft:taiga": "2020-06-02 22:09:14 -0300",
       "minecraft:desert_hills": "2020-05-24 21:01:26 -0300",
       "minecraft:deep_cold_ocean": "2020-06-01 23:54:54 -0300",
+      "minecraft:snowy_tundra": "2020-06-26 23:07:33 -0300",
       "minecraft:taiga_hills": "2020-06-03 01:59:21 -0300",
       "minecraft:desert": "2020-05-24 21:01:21 -0300",
+      "minecraft:frozen_river": "2020-06-26 23:07:53 -0300",
       "minecraft:deep_frozen_ocean": "2020-06-01 23:54:23 -0300",
       "minecraft:jungle": "2020-05-26 22:09:47 -0300",
       "minecraft:birch_forest": "2020-05-25 20:49:16 -0300",
       "minecraft:jungle_hills": "2020-06-01 23:45:08 -0300",
+      "minecraft:snowy_beach": "2020-06-26 23:07:32 -0300",
       "minecraft:bamboo_jungle": "2020-06-01 23:46:00 -0300",
       "minecraft:warm_ocean": "2020-06-21 20:52:22 -0300",
       "minecraft:badlands": "2020-06-01 23:56:24 -0300",
@@ -2593,6 +2627,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/prismarine_slab": {
+    "criteria": {
+      "has_prismarine": "2020-06-26 23:05:07 -0300"
+    },
+    "done": true
+  },
   "minecraft:story/mine_stone": {
     "criteria": {
       "get_stone": "2020-05-25 19:08:44 -0300"
@@ -3328,6 +3368,12 @@
   "minecraft:recipes/decorations/jungle_sign": {
     "criteria": {
       "has_jungle_planks": "2020-05-29 00:29:50 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_stairs_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine": "2020-06-26 23:05:07 -0300"
     },
     "done": true
   },
