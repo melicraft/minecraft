@@ -500,6 +500,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/sponge": {
+    "criteria": {
+      "has_wet_sponge": "2020-06-26 23:17:19 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/sandstone_slab": {
     "criteria": {
       "has_sandstone": "2020-05-25 19:52:42 -0300"
@@ -509,6 +515,12 @@
   "minecraft:recipes/redstone/lectern": {
     "criteria": {
       "has_book": "2020-05-30 02:25:53 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_stairs": {
+    "criteria": {
+      "has_prismarine_bricks": "2020-06-26 23:16:26 -0300"
     },
     "done": true
   },
@@ -791,6 +803,7 @@
       "minecraft:zombie_pigman": "2020-06-07 06:10:20 -0300",
       "minecraft:ravager": "2020-05-28 23:54:22 -0300",
       "minecraft:ghast": "2020-06-02 20:29:30 -0300",
+      "minecraft:guardian": "2020-06-26 23:15:29 -0300",
       "minecraft:vindicator": "2020-05-28 23:52:52 -0300",
       "minecraft:magma_cube": "2020-06-02 20:20:15 -0300",
       "minecraft:spider": "2020-05-25 19:40:34 -0300",
@@ -1387,6 +1400,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/prismarine_brick_slab_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine_brick": "2020-06-26 23:16:26 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/sandstone_stairs_from_sandstone_stonecutting": {
     "criteria": {
       "has_sandstone": "2020-05-25 19:52:42 -0300"
@@ -1474,6 +1493,18 @@
   "minecraft:recipes/building_blocks/polished_diorite_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2020-05-25 19:17:17 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_bricks": {
+    "criteria": {
+      "has_prismarine_shard": "2020-06-26 23:17:19 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_stairs_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine_brick": "2020-06-26 23:16:26 -0300"
     },
     "done": true
   },
@@ -1606,6 +1637,7 @@
       "minecraft:snowy_beach": "2020-06-26 23:07:32 -0300",
       "minecraft:bamboo_jungle": "2020-06-01 23:46:00 -0300",
       "minecraft:warm_ocean": "2020-06-21 20:52:22 -0300",
+      "minecraft:deep_lukewarm_ocean": "2020-06-26 23:22:59 -0300",
       "minecraft:badlands": "2020-06-01 23:56:24 -0300",
       "minecraft:savanna_plateau": "2020-05-27 21:09:03 -0300",
       "minecraft:beach": "2020-05-24 20:14:13 -0300",
@@ -1876,6 +1908,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2020-06-26 23:17:19 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/diamond": {
     "criteria": {
       "has_diamond_block": "2020-05-29 02:43:03 -0300"
@@ -2101,6 +2139,12 @@
   "minecraft:recipes/food/rabbit_stew_from_red_mushroom": {
     "criteria": {
       "has_cooked_rabbit": "2020-05-27 20:53:23 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2020-06-26 23:17:19 -0300"
     },
     "done": true
   },
@@ -2483,6 +2527,12 @@
   "minecraft:recipes/building_blocks/orange_terracotta": {
     "criteria": {
       "has_terracotta": "2020-06-01 23:41:07 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_slab": {
+    "criteria": {
+      "has_prismarine_bricks": "2020-06-26 23:16:26 -0300"
     },
     "done": true
   },
